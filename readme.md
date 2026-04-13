@@ -148,8 +148,6 @@ From the project root:
 python -m src.examples.from_dict.example
 ```
 
-Study the output and the `debug` JSON files dumped (e.g., `A0_Core_Inputs.json`, `Stage_Cost_Calculator_Inputs.json`) to understand the data structure your report generator will consume.
-
 ---
 
 ## Files to Read Before Starting
@@ -161,19 +159,4 @@ Study the output and the `debug` JSON files dumped (e.g., `A0_Core_Inputs.json`,
 | `src/examples/from_dict/example.py`                    | Working example to test against                   |
 | `src/examples/from_dict/Input_global.py`               | Sample input in global RUC mode                   |
 
----
-## Deliverables
-
-Submit a single pull request (or zip of your changes) containing:
-
-* [ ] Modified `main.py` with the new `latex_report` and `latex_output_path` parameters
-* [ ] New file `src/three_ps_lcca_core/core/latex/report.py` (or equivalent module) containing the report generation logic
-* [ ] At least one test in `tests/`
-* [ ] A sample `LCCA_Report.tex` generated from `Input_global.py` (so we can see your output without running the code)
-* [ ] **Raise a Pull Request (PR)** with clear commit history and description of changes
-* [ ] **Submit a short video walkthrough (5–10 minutes)** explaining:
-
-  * Your approach
-  * Code structure
-  * How the LaTeX report is generated
   * Sample output and key sections
