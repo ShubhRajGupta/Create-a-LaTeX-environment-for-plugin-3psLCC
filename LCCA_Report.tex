@@ -1,0 +1,385 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\title{Life Cycle Cost Analysis Report}
+\author{3psLCCA Engine}
+\date{\today}
+\begin{document}
+\maketitle
+\section{Project Parameters}
+\begin{longtable}{lc}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+Service Life Years & 75.00 \\
+Analysis Period Years & 150.00 \\
+Discount Rate Percent & 6.70 \\
+Inflation Rate Percent & 5.15 \\
+Interest Rate Percent & 7.75 \\
+Currency Conversion & 88.73 \\
+\bottomrule
+\end{longtable}
+\section{Construction Cost Inputs}
+\begin{longtable}{lc}
+\toprule
+\textbf{Cost Item} & \textbf{Value} \\
+\midrule
+Initial Construction Cost & 12,843,979.44 \\
+Initial Carbon Emissions Cost & 2,065,434.91 \\
+Superstructure Construction Cost & 9,356,038.92 \\
+Total Scrap Value & 2,164,095.02 \\
+\bottomrule
+\end{longtable}
+\section{Calculation Sections (Stages 1-4)}
+\subsection{Initial Stage}
+\subsubsection{Initial Cost Breakdown}
+ \paragraph{Calculation for Initial Construction Cost} 
+The Initial Construction Cost is calculated as: initial construction cost.
+\begin{align*}
+ \text{Initial Construction Cost} &= \text{Initial Construction Cost} \\
+ \text{Initial Construction Cost} &= \text{12,843,979.44} \\
+\end{align*}
+ \paragraph{Calculation for Initial Material Carbon Emission Cost} 
+The Initial Material Carbon Emission Cost is calculated as: initial carbon cost.
+\begin{align*}
+ \text{Initial Material Carbon Emission Cost} &= \text{Initial Carbon Cost} \\
+ \text{Initial Material Carbon Emission Cost} &= \text{2,065,434.91} \\
+\end{align*}
+ \paragraph{Calculation for Initial Road User Cost} 
+The Initial Road User Cost is calculated as: calculated based on construction duration and daily road user cost.
+\begin{align*}
+ \text{Initial Road User Cost} &= \text{Calculated} \text{Based} \text{On} \text{Construction} \text{Duration} \text{And} \text{Daily} \text{Road} \text{User} \text{Cost} \\
+ \text{Initial Road User Cost} &= \text{Calculated} \text{Based} \text{On} \text{Construction} \text{Duration} \text{And} \text{Daily} \text{Road} \text{User} \text{Cost} \\
+ \text{Initial Road User Cost} &= 20,064,546.22 
+\end{align*}
+ \paragraph{Calculation for Initial Vehicular Emission Cost} 
+The Initial Vehicular Emission Cost is calculated as: calculated based on construction duration and daily vehicular emission cost.
+\begin{align*}
+ \text{Initial Vehicular Emission Cost} &= \text{Calculated} \text{Based} \text{On} \text{Construction} \text{Duration} \text{And} \text{Daily} \text{Vehicular} \text{Emission} \text{Cost} \\
+ \text{Initial Vehicular Emission Cost} &= \text{Calculated} \text{Based} \text{On} \text{Construction} \text{Duration} \text{And} \text{Daily} \text{Vehicular} \text{Emission} \text{Cost} \\
+ \text{Initial Vehicular Emission Cost} &= 923,557.70 
+\end{align*}
+ \paragraph{Calculation for Time Cost Of Loan} 
+The Time Cost Of Loan is calculated as: calculated based on initial construction cost, loan interest rate, and construction period.
+\begin{align*}
+ \text{Time Cost Of Loan} &= \text{Calculated} \text{Based} \text{On} \text{Initial} \text{Construction} \text{Cost,} \text{Loan} \text{Interest} \text{Rate,} \text{And} \text{Construction} \text{Period} \\
+ \text{Time Cost Of Loan} &= \text{Calculated} \text{Based} \text{On} \text{Initial} \text{Construction} \text{Cost,} \text{Loan} \text{Interest} \text{Rate,} \text{And} \text{Construction} \text{Period} \\
+ \text{Time Cost Of Loan} &= 215,671.82 
+\end{align*}
+\textbf{Input Values:}
+\begin{itemize}
+\item Initial Construction Cost = 12,843,979.44
+\item Initial Carbon Cost = 2,065,434.91
+\item Construction Period In Years = 0.43
+\item Days Per Month = 30.00
+\end{itemize}
+\subsection{Use Stage}
+\subsubsection{Routine Inspection Costs}
+ \paragraph{Calculation for Routine Inspection Cost Per Year} 
+The Routine Inspection Cost Per Year is calculated as: initial cost of construction x percentage of initial construction cost per year / 100.
+\begin{align*}
+ \text{Routine Inspection Cost Per Year} &= \text{Initial Cost Of Construction} \times \text{Percentage Of Initial Construction Cost Per Year} \div 100 \\
+ \text{Routine Inspection Cost Per Year} &= \text{12,843,979.44} \times 0.10 \div 100 \\
+ \text{Routine Inspection Cost Per Year} &= 12,843.98 
+\end{align*}
+ \paragraph{Calculation for Present Value Of Routine Inspection Costs} 
+The Present Value Of Routine Inspection Costs is calculated as: routine inspection cost per year x present worth factor.
+\begin{align*}
+ \text{Present Value Of Routine Inspection Costs} &= \text{Routine Inspection Cost Per Year} \times \text{Present Worth Factor} \\
+ \text{Present Value Of Routine Inspection Costs} &= \text{Routine Inspection Cost Per Year} \times \text{Present Worth Factor} \\
+\end{align*}
+\textbf{Input Values:}
+\begin{itemize}
+\item Initial Cost Of Construction = 12,843,979.44
+\item Percentage Of Initial Construction Cost Per Year = 0.10
+\item Interval In Years = 1.00
+\end{itemize}
+\subsubsection{Routine Maintenance And Carbon Costs}
+ \paragraph{Calculation for Routine Maintenance Cost Per Year} 
+The Routine Maintenance Cost Per Year is calculated as: initial cost of construction x percentage of initial construction cost per year / 100.
+\begin{align*}
+ \text{Routine Maintenance Cost Per Year} &= \text{Initial Cost Of Construction} \times \text{Percentage Of Initial Construction Cost Per Year} \div 100 \\
+ \text{Routine Maintenance Cost Per Year} &= \text{12,843,979.44} \times 0.55 \div 100 \\
+ \text{Routine Maintenance Cost Per Year} &= 70,641.89 
+\end{align*}
+ \paragraph{Calculation for Routine Carbon Cost Per Year} 
+The Routine Carbon Cost Per Year is calculated as: cost of initial carbon emissions in x percentage of initial cabron emission cost / 100.
+\begin{align*}
+ \text{Routine Carbon Cost Per Year} &= \text{Cost Of Initial Carbon Emissions In} \times \text{Percentage Of Initial Cabron Emission Cost} \div 100 \\
+ \text{Routine Carbon Cost Per Year} &= \text{2,065,434.91} \times 0.55 \div 100 \\
+ \text{Routine Carbon Cost Per Year} &= 11,359.89 
+\end{align*}
+ \paragraph{Calculation for Present Value Of Routine Maintenance Costs} 
+The Present Value Of Routine Maintenance Costs is calculated as: routine maintenance cost per year x present worth factor.
+\begin{align*}
+ \text{Present Value Of Routine Maintenance Costs} &= \text{Routine Maintenance Cost Per Year} \times \text{Present Worth Factor} \\
+ \text{Present Value Of Routine Maintenance Costs} &= \text{Routine Maintenance Cost Per Year} \times \text{Present Worth Factor} \\
+\end{align*}
+ \paragraph{Calculation for Present Value Of Routine Carbon Costs} 
+The Present Value Of Routine Carbon Costs is calculated as: routine carbon cost per year x present worth factor.
+\begin{align*}
+ \text{Present Value Of Routine Carbon Costs} &= \text{Routine Carbon Cost Per Year} \times \text{Present Worth Factor} \\
+ \text{Present Value Of Routine Carbon Costs} &= \text{Routine Carbon Cost Per Year} \times \text{Present Worth Factor} \\
+\end{align*}
+\textbf{Input Values:}
+\begin{itemize}
+\item Initial Cost Of Construction = 12,843,979.44
+\item Cost Of Initial Carbon Emissions In = 2,065,434.91
+\item Percentage Of Initial Construction Cost Per Year = 0.55
+\item Percentage Of Initial Cabron Emission Cost = 0.55
+\item Interval In Years = 5.00
+\end{itemize}
+\subsubsection{Major Inspection Costs}
+ \paragraph{Calculation for Major Inspection Cost} 
+The Major Inspection Cost is calculated as: initial cost of construction x percentage of initial construction cost / 100.
+\begin{align*}
+ \text{Major Inspection Cost} &= \text{Initial Cost Of Construction} \times \text{Percentage Of Initial Construction Cost} \div 100 \\
+ \text{Major Inspection Cost} &= \text{12,843,979.44} \times \text{Percentage Of Initial Construction Cost} \div 100 \\
+ \text{Major Inspection Cost} &= 64,219.90 
+\end{align*}
+ \paragraph{Calculation for Present Value Of Major Inspection Costs} 
+The Present Value Of Major Inspection Costs is calculated as: major inspection cost x present worth factor.
+\begin{align*}
+ \text{Present Value Of Major Inspection Costs} &= \text{Major Inspection Cost} \times \text{Present Worth Factor} \\
+ \text{Present Value Of Major Inspection Costs} &= \text{Major Inspection Cost} \times \text{Present Worth Factor} \\
+\end{align*}
+\textbf{Input Values:}
+\begin{itemize}
+\item Initial Cost Of Construction = 12,843,979.44
+\item Percentage Of Initial Construction Cost For Inspection = 0.50
+\item Interval For Repair And Rehabitation In Years For Inspection = 5.00
+\end{itemize}
+\subsubsection{Major Repair Carbon And Road User Costs}
+ \paragraph{Calculation for Major Repair Cost} 
+The Major Repair Cost is calculated as: initial cost of construction x percentage of initial construction cost / 100.
+\begin{align*}
+ \text{Major Repair Cost} &= \text{Initial Cost Of Construction} \times \text{Percentage Of Initial Construction Cost} \div 100 \\
+ \text{Major Repair Cost} &= \text{12,843,979.44} \times \text{Percentage Of Initial Construction Cost} \div 100 \\
+ \text{Major Repair Cost} &= 1,284,397.94 
+\end{align*}
+ \paragraph{Calculation for Major Repair Carbon Cost} 
+The Major Repair Carbon Cost is calculated as: cost of initial carbon emissions in x percentage of initial carbon emission cost / 100.
+\begin{align*}
+ \text{Major Repair Carbon Cost} &= \text{Cost Of Initial Carbon Emissions In} \times \text{Percentage Of Initial Carbon Emission Cost} \div 100 \\
+ \text{Major Repair Carbon Cost} &= \text{2,065,434.91} \times 0.55 \div 100 \\
+ \text{Major Repair Carbon Cost} &= 11,359.89 
+\end{align*}
+ \paragraph{Calculation for Present Value Of Major Repair Costs} 
+The Present Value Of Major Repair Costs is calculated as: major repair cost x present worth factor.
+\begin{align*}
+ \text{Present Value Of Major Repair Costs} &= \text{Major Repair Cost} \times \text{Present Worth Factor} \\
+ \text{Present Value Of Major Repair Costs} &= \text{Major Repair Cost} \times \text{Present Worth Factor} \\
+\end{align*}
+ \paragraph{Calculation for Present Value Of Major Repair Carbon Costs} 
+The Present Value Of Major Repair Carbon Costs is calculated as: major repair carbon cost x present worth factor.
+\begin{align*}
+ \text{Present Value Of Major Repair Carbon Costs} &= \text{Major Repair Carbon Cost} \times \text{Present Worth Factor} \\
+ \text{Present Value Of Major Repair Carbon Costs} &= \text{Major Repair Carbon Cost} \times \text{Present Worth Factor} \\
+\end{align*}
+ \paragraph{Calculation for Road User Cost} 
+The Road User Cost is calculated as: calculated based on disruption duration and daily road user cost.
+\begin{align*}
+ \text{Road User Cost} &= \text{Calculated} \text{Based} \text{On} \text{Disruption} \text{Duration} \text{And} \text{Daily} \text{Road} \text{User} \text{Cost} \\
+ \text{Road User Cost} &= \text{Calculated} \text{Based} \text{On} \text{Disruption} \text{Duration} \text{And} \text{Daily} \text{Road} \text{User} \text{Cost} \\
+ \text{Road User Cost} &= 26,323,141.21 
+\end{align*}
+ \paragraph{Calculation for Vehicular Emission Cost} 
+The Vehicular Emission Cost is calculated as: calculated based on disruption duration and daily vehicular emission cost.
+\begin{align*}
+ \text{Vehicular Emission Cost} &= \text{Calculated} \text{Based} \text{On} \text{Disruption} \text{Duration} \text{And} \text{Daily} \text{Vehicular} \text{Emission} \text{Cost} \\
+ \text{Vehicular Emission Cost} &= \text{Calculated} \text{Based} \text{On} \text{Disruption} \text{Duration} \text{And} \text{Daily} \text{Vehicular} \text{Emission} \text{Cost} \\
+ \text{Vehicular Emission Cost} &= 1,211,636.67 
+\end{align*}
+\textbf{Input Values:}
+\begin{itemize}
+\item Initial Cost Of Construction = 12,843,979.44
+\item Cost Of Initial Carbon Emissions In = 2,065,434.91
+\item Percentage Of Initial Construction Cost For Repair = 10.00
+\item Percentage Of Initial Carbon Emission Cost = 0.55
+\item Interval For Repair And Rehabitation In Years For Repair = 20.00
+\item Repairs Duration Months = 3.00
+\item Disruption Days = 90.00
+\end{itemize}
+\subsubsection{Replacement Costs For Bearing And Expansion Joint}
+ \paragraph{Calculation for Replacement Cost} 
+The Replacement Cost is calculated as: cost of super structure x percentage of super structure cost / 100.
+\begin{align*}
+ \text{Replacement Cost} &= \text{Cost Of Super Structure} \times \text{Percentage Of Super Structure Cost} \div 100 \\
+ \text{Replacement Cost} &= \text{9,356,038.92} \times 12.50 \div 100 \\
+ \text{Replacement Cost} &= 1,169,504.86 
+\end{align*}
+ \paragraph{Calculation for Present Value Of Replacement Costs} 
+The Present Value Of Replacement Costs is calculated as: replacement cost x present worth factor.
+\begin{align*}
+ \text{Present Value Of Replacement Costs} &= \text{Replacement Cost} \times \text{Present Worth Factor} \\
+ \text{Present Value Of Replacement Costs} &= \text{Replacement Cost} \times \text{Present Worth Factor} \\
+\end{align*}
+ \paragraph{Calculation for Road User Cost} 
+The Road User Cost is calculated as: calculated based on duration of replacement and daily road user cost.
+\begin{align*}
+ \text{Road User Cost} &= \text{Calculated} \text{Based} \text{On} \text{Duration} \text{Of} \text{Replacement} \text{And} \text{Daily} \text{Road} \text{User} \text{Cost} \\
+ \text{Road User Cost} &= \text{Calculated} \text{Based} \text{On} \text{Duration} \text{Of} \text{Replacement} \text{And} \text{Daily} \text{Road} \text{User} \text{Cost} \\
+ \text{Road User Cost} &= 399,747.50 
+\end{align*}
+ \paragraph{Calculation for Vehicular Emission Cost} 
+The Vehicular Emission Cost is calculated as: calculated based on duration of replacement and daily vehicular emission cost.
+\begin{align*}
+ \text{Vehicular Emission Cost} &= \text{Calculated} \text{Based} \text{On} \text{Duration} \text{Of} \text{Replacement} \text{And} \text{Daily} \text{Vehicular} \text{Emission} \text{Cost} \\
+ \text{Vehicular Emission Cost} &= \text{Calculated} \text{Based} \text{On} \text{Duration} \text{Of} \text{Replacement} \text{And} \text{Daily} \text{Vehicular} \text{Emission} \text{Cost} \\
+ \text{Vehicular Emission Cost} &= 18,400.11 
+\end{align*}
+\textbf{Input Values:}
+\begin{itemize}
+\item Cost Of Super Structure = 9,356,038.92
+\item Percentage Of Super Structure Cost = 12.50
+\item Interval For Replacement In Years = 25.00
+\item Duration Of Replacement In Days = 2.00
+\end{itemize}
+\subsection{Reconstruction Stage}
+\subsubsection{Demolition And Disposal}
+ \paragraph{Calculation for Demolition Cost} 
+The Demolition Cost is calculated as: initial cost of construction x percentage of initial construction cost / 100.
+\begin{align*}
+ \text{Demolition Cost} &= \text{Initial Cost Of Construction} \times \text{Percentage Of Initial Construction Cost} \div 100 \\
+ \text{Demolition Cost} &= \text{12,843,979.44} \times 10.00 \div 100 \\
+ \text{Demolition Cost} &= 1,284,397.94 
+\end{align*}
+ \paragraph{Calculation for Demolition Carbon Cost} 
+The Demolition Carbon Cost is calculated as: cost of initial carbon emissions in x percentage of initial carbon emission cost / 100.
+\begin{align*}
+ \text{Demolition Carbon Cost} &= \text{Cost Of Initial Carbon Emissions In} \times \text{Percentage Of Initial Carbon Emission Cost} \div 100 \\
+ \text{Demolition Carbon Cost} &= \text{2,065,434.91} \times 10.00 \div 100 \\
+ \text{Demolition Carbon Cost} &= 206,543.49 
+\end{align*}
+ \paragraph{Calculation for Cost Of Reconstruction After Demolition} 
+The Cost Of Reconstruction After Demolition is calculated as: initial cost of construction.
+\begin{align*}
+ \text{Cost Of Reconstruction After Demolition} &= \text{Initial Cost Of Construction} \\
+ \text{Cost Of Reconstruction After Demolition} &= \text{12,843,979.44} \\
+\end{align*}
+ \paragraph{Calculation for Present Value Of Demolition Costs} 
+The Present Value Of Demolition Costs is calculated as: demolition cost x demolition spwi.
+\begin{align*}
+ \text{Present Value Of Demolition Costs} &= \text{Demolition Cost} \times \text{Demolition Spwi} \\
+ \text{Present Value Of Demolition Costs} &= \text{Demolition Cost} \times \text{Demolition Spwi} \\
+\end{align*}
+ \paragraph{Calculation for Present Value Of Demolition Carbon Costs} 
+The Present Value Of Demolition Carbon Costs is calculated as: demolition carbon cost x demolition spwi.
+\begin{align*}
+ \text{Present Value Of Demolition Carbon Costs} &= \text{Demolition Carbon Cost} \times \text{Demolition Spwi} \\
+ \text{Present Value Of Demolition Carbon Costs} &= \text{Demolition Carbon Cost} \times \text{Demolition Spwi} \\
+\end{align*}
+ \paragraph{Calculation for Present Value Of Reconstruction Costs} 
+The Present Value Of Reconstruction Costs is calculated as: initial cost of construction x demolition spwi.
+\begin{align*}
+ \text{Present Value Of Reconstruction Costs} &= \text{Initial Cost Of Construction} \times \text{Demolition Spwi} \\
+ \text{Present Value Of Reconstruction Costs} &= \text{12,843,979.44} \times \text{Demolition Spwi} \\
+\end{align*}
+\textbf{Input Values:}
+\begin{itemize}
+\item Initial Cost Of Construction = 12,843,979.44
+\item Cost Of Initial Carbon Emissions In = 2,065,434.91
+\item Percentage Of Initial Construction Cost = 10.00
+\item Percentage Of Initial Carbon Emission Cost = 10.00
+\end{itemize}
+\subsubsection{Reconstruction Costs}
+ \paragraph{Calculation for Present Value Of Construction Costs} 
+The Present Value Of Construction Costs is calculated as: initial cost of construction x sum of present worth factor.
+\begin{align*}
+ \text{Present Value Of Construction Costs} &= \text{Initial Cost Of Construction} \times \text{Sum Of Present Worth Factor} \\
+ \text{Present Value Of Construction Costs} &= \text{12,843,979.44} \times 0.33 \\
+ \text{Present Value Of Construction Costs} &= 4,251,357.19 
+\end{align*}
+ \paragraph{Calculation for Present Value Of Carbon Costs} 
+The Present Value Of Carbon Costs is calculated as: cost of initial carbon emissions in x sum of present worth factor.
+\begin{align*}
+ \text{Present Value Of Carbon Costs} &= \text{Cost Of Initial Carbon Emissions In} \times \text{Sum Of Present Worth Factor} \\
+ \text{Present Value Of Carbon Costs} &= \text{2,065,434.91} \times 0.33 \\
+ \text{Present Value Of Carbon Costs} &= 683,658.96 
+\end{align*}
+\textbf{Input Values:}
+\begin{itemize}
+\item Initial Cost Of Construction = 12,843,979.44
+\item Cost Of Initial Carbon Emissions In = 2,065,434.91
+\item Sum Of Present Worth Factor = 0.33
+\end{itemize}
+\subsection{End-of-Life Stage}
+\subsubsection{Demolition And Disposal}
+ \paragraph{Calculation for Demolition Cost} 
+The Demolition Cost is calculated as: initial cost of construction x percentage of initial construction cost / 100.
+\begin{align*}
+ \text{Demolition Cost} &= \text{Initial Cost Of Construction} \times \text{Percentage Of Initial Construction Cost} \div 100 \\
+ \text{Demolition Cost} &= \text{12,843,979.44} \times 10.00 \div 100 \\
+ \text{Demolition Cost} &= 1,284,397.94 
+\end{align*}
+ \paragraph{Calculation for Demolition Carbon Cost} 
+The Demolition Carbon Cost is calculated as: cost of initial carbon emissions in x percentage of initial carbon emission cost / 100.
+\begin{align*}
+ \text{Demolition Carbon Cost} &= \text{Cost Of Initial Carbon Emissions In} \times \text{Percentage Of Initial Carbon Emission Cost} \div 100 \\
+ \text{Demolition Carbon Cost} &= \text{2,065,434.91} \times 10.00 \div 100 \\
+ \text{Demolition Carbon Cost} &= 206,543.49 
+\end{align*}
+ \paragraph{Calculation for Cost Of Reconstruction After Demolition} 
+The Cost Of Reconstruction After Demolition is calculated as: initial cost of construction.
+\begin{align*}
+ \text{Cost Of Reconstruction After Demolition} &= \text{Initial Cost Of Construction} \\
+ \text{Cost Of Reconstruction After Demolition} &= \text{12,843,979.44} \\
+\end{align*}
+ \paragraph{Calculation for Present Value Of Demolition Costs} 
+The Present Value Of Demolition Costs is calculated as: demolition cost x demolition spwi.
+\begin{align*}
+ \text{Present Value Of Demolition Costs} &= \text{Demolition Cost} \times \text{Demolition Spwi} \\
+ \text{Present Value Of Demolition Costs} &= \text{Demolition Cost} \times \text{Demolition Spwi} \\
+\end{align*}
+ \paragraph{Calculation for Present Value Of Demolition Carbon Costs} 
+The Present Value Of Demolition Carbon Costs is calculated as: demolition carbon cost x demolition spwi.
+\begin{align*}
+ \text{Present Value Of Demolition Carbon Costs} &= \text{Demolition Carbon Cost} \times \text{Demolition Spwi} \\
+ \text{Present Value Of Demolition Carbon Costs} &= \text{Demolition Carbon Cost} \times \text{Demolition Spwi} \\
+\end{align*}
+ \paragraph{Calculation for Present Value Of Reconstruction Costs} 
+The Present Value Of Reconstruction Costs is calculated as: initial cost of construction x demolition spwi.
+\begin{align*}
+ \text{Present Value Of Reconstruction Costs} &= \text{Initial Cost Of Construction} \times \text{Demolition Spwi} \\
+ \text{Present Value Of Reconstruction Costs} &= \text{12,843,979.44} \times \text{Demolition Spwi} \\
+\end{align*}
+\textbf{Input Values:}
+\begin{itemize}
+\item Initial Cost Of Construction = 12,843,979.44
+\item Cost Of Initial Carbon Emissions In = 2,065,434.91
+\item Percentage Of Initial Construction Cost = 10.00
+\item Percentage Of Initial Carbon Emission Cost = 10.00
+\end{itemize}
+\section{Summary}
+\begin{longtable}{llc}
+\toprule
+\textbf{Stage} & \textbf{Category} & \textbf{Cost} \\
+\midrule
+Initial Stage & Economic & 13,059,651.26 \\
+Initial Stage & Environmental & 2,988,992.61 \\
+Initial Stage & Social & 20,064,546.22 \\
+Use Stage & Economic & 7,007,463.57 \\
+Use Stage & Environmental & 1,382,793.25 \\
+Use Stage & Social & 26,722,888.71 \\
+Reconstruction & Economic & 5,464,195.74 \\
+Reconstruction & Environmental & 1,116,510.45 \\
+Reconstruction & Social & 7,918,550.34 \\
+End Of Life & Economic & 382,782.72 \\
+End Of Life & Environmental & 42,640.73 \\
+End Of Life & Social & 428,300.89 \\
+\midrule
+\textbf{Grand Totals} & & \\
+\midrule
+& \textbf{Economic} & \textbf{25,914,093.29} \\
+& \textbf{Environmental} & \textbf{5,530,937.04} \\
+& \textbf{Social} & \textbf{55,134,286.16} \\
+\midrule
+& \textbf{Grand Total} & \textbf{86,579,316.49} \\
+\bottomrule
+\end{longtable}
+\end{document}
